@@ -3,12 +3,13 @@ CL package for generating ASCII banners using C64 fonts.
 
 ## Installation
 
-The package is not added to the official quicklisp repository, so at the moment the best way to install is to clone it into the `local-projects` folder:
+This package is not yet added to the official quicklisp repository, so at the moment, the best way to install is to clone it into the `local-projects` folder:
 
 ```bash
 $ cd $HOME/quicklisp/local-projects
 $ git clone https://github.com/appblue/l-banner.git
 ```
+Note: in the example above, it's assumed that quicklisp is installed in `$HOME` directory.
 
 ## Usage
 
