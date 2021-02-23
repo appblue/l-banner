@@ -7,7 +7,8 @@
 (in-package :l-banner.chars)
 
 (defun read-charset (fname nchars char-size)
-"read character set from the binary file in the format like c64 ROM characters"
+"reads character set from the binary file in the format of C64 character ROM
+and retuns list of 8 byte lists"
   (let ((s (open fname :element-type '(unsigned-byte 8)))
         res)
     (dotimes (i nchars)
