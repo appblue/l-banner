@@ -85,4 +85,3 @@ and retuns list of 8 byte lists"
     (dolist (l (nth (char-mapper (char-int c)) *charset*))
       (push (char-get-line l) res))
     (reverse res)))
-
